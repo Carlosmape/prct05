@@ -8,8 +8,12 @@ class Fraccion
 
     ####métodos
     def initialize(a,b) #Inicializa los atributos(num,denom)
-        mcd = gcd(a,b)
-        @numerador, @denominador = a/mcd, b/mcd #garantizamos que la fraccion este simplificada
+        if b == 0
+           "Error denominador cero"
+        else
+            mcd = gcd(a,b)
+            @numerador, @denominador = a/mcd, b/mcd #garantizamos que la fraccion este simplificada
+        end
     end
 
     def to_s #Pone el número racional como cadena para mostrarlo por pantalla

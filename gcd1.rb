@@ -13,4 +13,4 @@ def gcd(n, d)
     return gcd
 end
 
-puts gcd(6,3)
+#puts gcd(6,3)
