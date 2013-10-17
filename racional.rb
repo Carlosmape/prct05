@@ -1,6 +1,6 @@
 # Implementar en este fichero la clase para crear objetos racionales
 
-require "./gcd.rb"
+require "./gcd1.rb"
 
 class Fraccion
     ####atributos
