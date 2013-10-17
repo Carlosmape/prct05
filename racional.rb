@@ -7,8 +7,8 @@ class Fraccion
     attr_reader :numerador, :denominador
 
     ####métodos
-    def initialize (a,b) #Inicializa los atributos(num,denom)
-        mcd = gcd (a,b)
+    def initialize(a,b) #Inicializa los atributos(num,denom)
+        mcd = gcd(a,b)
         @numerador, @denominador = a/mcd, b/mcd #garantizamos que la fraccion este simplificada
     end
 
